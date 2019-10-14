@@ -1,0 +1,10 @@
+--2018-11-08 18:58:21--  https://www.lnianyzaulek.com/production/files/Images/filename
+Resolving www.lnianyzaulek.com (www.lnianyzaulek.com)... 91.194.229.69
+Connecting to www.lnianyzaulek.com (www.lnianyzaulek.com)|91.194.229.69|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.lnianyzaulek.com/production/webroot/files/Images/filename/ [following]
+--2018-11-08 18:58:24--  https://www.lnianyzaulek.com/production/webroot/files/Images/filename/
+Reusing existing connection to www.lnianyzaulek.com:443.
+HTTP request sent, awaiting response... 404 Not Found
+2018-11-08 18:58:25 ERROR 404: Not Found.
+
