@@ -309,12 +309,15 @@
 <!-- FIREBASE -->
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.4.0/firebase-app.js"></script>
+<script src="/__/firebase/7.5.0/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
 https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.4.0/firebase-analytics.js"></script>
+<script src="/__/firebase/7.5.0/firebase-analytics.js"></script>
 
+<!-- Add the standard Performance Monitoring library -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-performance.js"></script>
+    
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
 
@@ -323,6 +326,8 @@ https://firebase.google.com/docs/web/setup#available-libraries -->
 <script>
 analytics = firebase.analytics();
 analytics.logEvent('page_load', {"nane":"index.html"});
+var perf = firebase.performance();
+
 </script>
 
 </body>
